@@ -974,3 +974,13 @@ $(document).on('scroll', function () {
         $CaixaDeStatus.removeClass('fixar');
     }
 });
+
+//Esconder Menu
+	function esconder(){
+		document.getElementById('nav').style.display = 'none';
+	}
+
+//Mostrar Menu
+function mostrar(){
+		document.getElementById('nav').style.display = 'block';
+}
